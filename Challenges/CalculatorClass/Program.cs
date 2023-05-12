@@ -1,13 +1,12 @@
 ﻿/*
-Class Creation w/ Property
-- Create a User class
+Create a Calculator class that has the ability to complete all of the following processes, each taking in two number inputs:
+- Add
+- Subtract
+- Multiply
+- Divide
 
-- Give the user a FirstName, LastName, ID (an integer, with no setter), and BirthDate properties.
-
-- Create constructor for this class that has parameters for all the necessary properties.
-
-Bonus: Create a method that returns the full name of the user.
-
-Double Bonus: Create a method that returns the age of the user in years.
+Bonus Challenges:
+- Allow use of whole numbers and numbers with decimals
+- Have the ability to return fractions or percentages instead of decimals
+- Allow the calculator to take in as many numbers as the user provides
 */
-
