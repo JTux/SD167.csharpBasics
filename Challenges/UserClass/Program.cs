@@ -30,8 +30,16 @@ string firstName = Console.ReadLine() ?? "User";
 Console.Write("Enter your last name: ");
 string lastName = Console.ReadLine() ?? userCounter.ToString();
 
+// Ask for the birth year
+Console.Write("Enter your birth year: ");
+string yearResponse = Console.ReadLine() ?? "0";
+int birthYear = int.Parse(yearResponse);
+// birthYear = Convert.ToInt32(yearResponse);
+Birthday birthday = new Birthday(1, 1, birthYear);
+
 // Created a user instance called consoleUser
 User consoleUser = new User(userCounter, firstName, lastName);
+consoleUser.Birthday = birthday;
 
 DescribeUser(consoleUser);
 
@@ -43,6 +51,7 @@ void DescribeUser(User user)
     string description = $"User #{user.ID} is {user.Name}";
     Console.WriteLine(description);
     Console.WriteLine($"Their full name is {user.GetFullName()}");
+    Console.WriteLine($"Their birthday is {user.Birthday?.Month}/{user.Birthday?.Day}/{user.Birthday?.Year}");
 }
 
 namespace UserClassChallenge
