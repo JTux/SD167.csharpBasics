@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserClass", "Challenges\Use
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleClass", "Challenges\VehicleClass\VehicleClass.csproj", "{37571590-6E74-4D84-9AB6-FF882EC62E53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "09_RepositoryPattern\RepositoryPattern.csproj", "{A46CF600-499B-4F7B-B09D-7CAC2A5BDDF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,10 @@ Global
 		{37571590-6E74-4D84-9AB6-FF882EC62E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37571590-6E74-4D84-9AB6-FF882EC62E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37571590-6E74-4D84-9AB6-FF882EC62E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46CF600-499B-4F7B-B09D-7CAC2A5BDDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46CF600-499B-4F7B-B09D-7CAC2A5BDDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46CF600-499B-4F7B-B09D-7CAC2A5BDDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46CF600-499B-4F7B-B09D-7CAC2A5BDDF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FD6D6FBB-0B95-4614-85F8-5C41CFD8199A} = {AED6123D-2BB6-4C74-9B49-34747FAE945D}
